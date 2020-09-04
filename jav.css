@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(pic4.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#navbar {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 60px;
+    opacity: .6;
+}
+
+#home {
+    justify-content: center;
+    position: absolute;
+}
+
+#name h1 {
+    margin-left: 700px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#hello ul {
+    display: flex;
+    margin-left: -43px;
+}
+
+#hello ul li {
+    list-style: none;
+}
+
+#hello ul li a {
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: 'Baloo Bhai 2', cursive
+}
+
+#hello ul li a:hover {
+    color: black;
+    background-color: blanchedalmond;
+}
+
+#main {
+    display: flex;
+}
+
+#con {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+#con h1,
+p {
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 500px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#con h1 {
+    font-size: 2.2rem;
+}
+
+#image img {
+    height: 80%;
+    width: 80%;
+    padding-top: 30px;
+    margin-left: 70px;
+    opacity: .3;
+}
+
+#forms {
+    height: 150px;
+    display: flex;
+}
+
+#loginform {
+    display: block;
+    width: 280px;
+    top: 120%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: cornsilk;
+}
+
+#loginform h1 {
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-bottom: solid 8px #3c0707;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.form input {
+    border: none;
+    border-bottom: solid 8px #3c0707;
+    width: 100%;
+    border-color: none;
+    background: none;
+    color: white;
+    outline: none;
+    padding-top: 30px;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 200;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: 'Baloo Bhai 2', cursive;
+    outline: none;
+    margin-top: 20px;
+    width: 101%;
+    padding: 0px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    border: solid 5px #3c0707;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+#pic {
+    margin-left: 755px;
+    color: white;
+    margin-top: -150px;
+    width: 550px;
+    text-align: center;
+    font-size: 2.0rem;
+    opacity: .34;
+}
